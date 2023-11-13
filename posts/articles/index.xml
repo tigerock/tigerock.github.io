@@ -10,12 +10,11 @@
     <lastBuildDate>Fri, 03 Mar 2017 12:00:00 -0500</lastBuildDate>
     <atom:link href="https://www.tigerock.com/posts/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://www.tigerock.com/posts/articles/post-0/</link>
-      <pubDate>Mon, 06 Nov 2023 11:29:05 +0800</pubDate>
-      <guid>https://www.tigerock.com/posts/articles/post-0/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
+      <title>Our goals in 2023</title>
+      <link>https://www.tigerock.com/posts/articles/goals-2023/</link>
+      <pubDate>Mon, 13 Nov 2023 16:55:00 +0800</pubDate>
+      <guid>https://www.tigerock.com/posts/articles/goals-2023/</guid>
+      <description>Why doodles In order to create great games. After dicussion we deiced to make some doodles first. This concept comes from Google Doodles. Doodles is a part used to verify gameplay and develop ideas. Each doodle may not be able to fully experience every aspect of the game, and it may even be a special version under development. The reason for releasing it was to test one of our ideas more quickly.</description>
     </item>
   </channel>
 </rss>

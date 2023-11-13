@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://www.tigerock.com/en/sitemap.xml</loc>
-    
-      <lastmod>2023-11-06T11:29:05+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://www.tigerock.com/%E4%B8%AD%E6%96%87/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.tigerock.com/posts/doodles/</loc>
+    <lastmod>2017-03-03T12:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.tigerock.com/posts/articles/</loc>
+    <lastmod>2017-03-03T12:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.tigerock.com/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.tigerock.com/</loc>
+    <lastmod>2023-11-13T16:55:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.tigerock.com/posts/articles/goals-2023/</loc>
+    <lastmod>2023-11-13T16:55:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.tigerock.com/posts/</loc>
+    <lastmod>2023-11-13T16:55:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.tigerock.com/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.tigerock.com/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
