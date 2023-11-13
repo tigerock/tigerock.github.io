@@ -2,80 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tigerock.com/posts/articles/</loc>
+    <loc>https://www.tigerock.com/posts/articles/</loc>
     <lastmod>2017-03-03T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://tigerock.com/posts/doodles/</loc>
+    <loc>https://www.tigerock.com/posts/doodles/</loc>
     <lastmod>2017-03-03T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://tigerock.com/about/</loc>
+    <loc>https://www.tigerock.com/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.tigerock.com/%E4%B8%AD%E6%96%87/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.tigerock.com/about/"
+                />
   </url><url>
-    <loc>https://tigerock.com/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://tigerock.com/</loc>
+    <loc>https://www.tigerock.com/</loc>
     <lastmod>2023-11-06T11:29:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://tigerock.com/%E4%B8%AD%E6%96%87/"
+                href="https://www.tigerock.com/%E4%B8%AD%E6%96%87/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://tigerock.com/"
+                href="https://www.tigerock.com/"
                 />
   </url><url>
-    <loc>https://tigerock.com/posts/doodles/post-0/</loc>
+    <loc>https://www.tigerock.com/posts/doodles/post-0/</loc>
     <lastmod>2023-11-06T11:29:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://tigerock.com/posts/articles/post-0/</loc>
+    <loc>https://www.tigerock.com/posts/articles/post-0/</loc>
     <lastmod>2023-11-06T11:29:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://tigerock.com/posts/</loc>
+    <loc>https://www.tigerock.com/posts/</loc>
     <lastmod>2023-11-06T11:29:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://tigerock.com/categories/</loc>
+    <loc>https://www.tigerock.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://tigerock.com/%E4%B8%AD%E6%96%87/categories/"
+                href="https://www.tigerock.com/%E4%B8%AD%E6%96%87/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://tigerock.com/categories/"
+                href="https://www.tigerock.com/categories/"
                 />
   </url><url>
-    <loc>https://tigerock.com/tags/</loc>
+    <loc>https://www.tigerock.com/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://tigerock.com/%E4%B8%AD%E6%96%87/tags/"
+                href="https://www.tigerock.com/%E4%B8%AD%E6%96%87/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://tigerock.com/tags/"
+                href="https://www.tigerock.com/tags/"
                 />
   </url>
 </urlset>

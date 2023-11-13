@@ -2,46 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tigerock.com/%E4%B8%AD%E6%96%87/categories/</loc>
+    <loc>https://www.tigerock.com/%E4%B8%AD%E6%96%87/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://tigerock.com/categories/"
+                href="https://www.tigerock.com/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://tigerock.com/%E4%B8%AD%E6%96%87/categories/"
+                href="https://www.tigerock.com/%E4%B8%AD%E6%96%87/about/"
                 />
   </url><url>
-    <loc>https://tigerock.com/%E4%B8%AD%E6%96%87/tags/</loc>
+    <loc>https://www.tigerock.com/%E4%B8%AD%E6%96%87/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://tigerock.com/tags/"
+                href="https://www.tigerock.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://tigerock.com/%E4%B8%AD%E6%96%87/tags/"
+                href="https://www.tigerock.com/%E4%B8%AD%E6%96%87/categories/"
                 />
   </url><url>
-    <loc>https://tigerock.com/%E4%B8%AD%E6%96%87/</loc>
+    <loc>https://www.tigerock.com/%E4%B8%AD%E6%96%87/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://tigerock.com/"
+                href="https://www.tigerock.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://tigerock.com/%E4%B8%AD%E6%96%87/"
+                href="https://www.tigerock.com/%E4%B8%AD%E6%96%87/"
+                />
+  </url><url>
+    <loc>https://www.tigerock.com/%E4%B8%AD%E6%96%87/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.tigerock.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.tigerock.com/%E4%B8%AD%E6%96%87/tags/"
                 />
   </url>
 </urlset>
