@@ -1,0 +1,39 @@
+{
+  "baseURL": "https://www.tigerock.com/",
+  "title": "tigeRock",
+  "theme": "ananke",
+  "copyright": "Tigerock",
+  "enableRobotsTXT": true,
+  "Paginate": 5,
+  "defaultContentLanguage": "EN",
+  "params": {
+    "favicon": "imgs/logo.png",
+    "recent_posts_number": 5,
+    "custom_css": ["css/scaffold.css"]
+  },
+  "menu": {
+    "footer": [
+      {
+        "name": "Terms",
+        "pageRef": "/terms"
+      }, {
+        "name": "Privacy",
+        "pageRef": "/privacy"
+      }
+    ]
+  },
+  "sitemap": {
+    "changefreq": "monthly",
+    "priority": 0.5,
+    "filename": "sitemap.xml"
+  },
+  "languages": {
+    "EN": {
+      "disabled": false,
+      "languageCode": "en-us",
+      "languageDirection": "ltr",
+      "languageName": "English",
+      "contentDir": "content/en"
+    }
+  }
+}
