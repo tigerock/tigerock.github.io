@@ -1,11 +1,12 @@
 {
-  "baseURL": "https://www.tigerock.com/",
+  "baseURL": "https://tigerock.com/",
   "title": "tigeRock",
   "theme": "ananke",
-  "copyright": "Tigerock",
+  "copyright": "tigeRock",
   "enableRobotsTXT": true,
   "Paginate": 5,
   "defaultContentLanguage": "EN",
+  "googleAnalytics": "G-1TMD411G0E",
   "params": {
     "favicon": "imgs/logo.png",
     "recent_posts_number": 5,
