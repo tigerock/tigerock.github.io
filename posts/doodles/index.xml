@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tigeRock</title>
-    <link>https://www.tigerock.com/posts/doodles/</link>
+    <link>https://tigerock.com/posts/doodles/</link>
     <description>Recent content on tigeRock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Tigerock</copyright>
+    <copyright>tigeRock</copyright>
     <lastBuildDate>Fri, 03 Mar 2017 12:00:00 -0500</lastBuildDate>
-    <atom:link href="https://www.tigerock.com/posts/doodles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tigerock.com/posts/doodles/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Enjoy your every seconds on tigeRock</title>
-    <link>https://www.tigerock.com/</link>
+    <link>https://tigerock.com/</link>
     <description>Recent content in Enjoy your every seconds on tigeRock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Tigerock</copyright>
+    <copyright>tigeRock</copyright>
     <lastBuildDate>Mon, 13 Nov 2023 16:55:00 +0800</lastBuildDate>
-    <atom:link href="https://www.tigerock.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tigerock.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About us</title>
-      <link>https://www.tigerock.com/about/</link>
+      <link>https://tigerock.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.tigerock.com/about/</guid>
+      <guid>https://tigerock.com/about/</guid>
       <description>Start point We started to have ideas in 2022 to make great games. We believe that as long as we work by heart, we can achive this goal, and these great games can also support us. But it was always just an idea that failed to become a reality and move forward smoothly. Until April 2023, due to the economic cold wave, our previous company (also a company in the game industry) was not immune to the impact.</description>
     </item>
     <item>
       <title>Our goals in 2023</title>
-      <link>https://www.tigerock.com/posts/articles/goals-2023/</link>
+      <link>https://tigerock.com/posts/articles/goals-2023/</link>
       <pubDate>Mon, 13 Nov 2023 16:55:00 +0800</pubDate>
-      <guid>https://www.tigerock.com/posts/articles/goals-2023/</guid>
+      <guid>https://tigerock.com/posts/articles/goals-2023/</guid>
       <description>Why doodles In order to create great games. After dicussion we deiced to make some doodles first. This concept comes from Google Doodles. Doodles is a part used to verify gameplay and develop ideas. Each doodle may not be able to fully experience every aspect of the game, and it may even be a special version under development. The reason for releasing it was to test one of our ideas more quickly.</description>
     </item>
   </channel>
