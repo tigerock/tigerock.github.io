@@ -1,0 +1,116 @@
+<html lang="zh">
+<head>
+  <title>tigeRock Entertainment</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/styles/main.css">
+<link rel="stylesheet" href="/assets/styles/icofont.css">
+<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/favicon-32x32.webp" sizes="32x32">
+<link rel="icon" href="/assets/favicon-48x48.webp" sizes="48x48">
+<link rel="icon" href="/assets/favicon-96x96.webp" sizes="96x96">
+<link rel="icon" href="/assets/favicon-144x144.webp" sizes="144x144">
+<script src="/assets/scripts/main.js" type="application/javascript"></script>
+
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">
+    <span>t</span>
+    <span>i</span>
+    <span>g</span>
+    <span>e</span>
+    <span>R</span>
+    <span>o</span>
+    <span>c</span>
+    <span>k</span>
+  </a>
+  <nav>
+    <ol>
+      
+      <li><a href="/zh/contact.html"><p>联系我们</p></a></li>
+      <li><a href="/" id="switch-lang" hreflang="en"><p>EN</p></a></li>
+    </ol>
+  </nav>
+</header>
+<div class="contact">
+  <div class="wanted"></div>
+  <div class="contact-content">
+    <div class="article">
+      <p>
+        我们在这个充满激情和创意的游戏行业中，一直在寻找志同道合的伙伴。
+        我们相信，每一个对游戏有热爱、有梦想的人，都有机会在这里大放异彩。
+        我们的团队不仅需要像素画艺术家、美术设计师和音乐/音效艺术家，我们还需要那些能够用代码编织梦想、用故事讲述情感、用设计吸引眼球的创意人才。
+      </p>
+      <p>
+        我们不只是提供一个工作岗位，我们提供的是一个实现梦想的平台。
+        在这里，你可以自由地发挥你的创造力，与一群有才华、有激情的人一起工作。
+        我们鼓励团队成员之间的交流与合作，因为我们相信，最好的创意往往来自于团队的协作。
+      </p>
+      <p>
+        如果你在上海或杭州，我们的办公室不仅是一个工作的地方，更是一个能够让你的创意得到实现的空间。
+        如果你选择远程工作，不用担心，我们有完善的远程工作体系，确保每一位成员都能感受到团队的温暖和支持。
+      </p>
+      <p>
+        我们不仅仅是在制作游戏，我们是在创造艺术，我们是在讲述故事，我们是在带给玩家无限的惊喜和快乐。
+        我们期待你的加入，一起创造属于我们的精彩故事。
+      </p>
+      <p>
+
+      </p>
+      <p>
+        <a href="mailto:contact@tigerock.com" class="email" title="Email us immediately!">
+          <span class="icon-mail"></span>contact@tigerock.com
+        </a>
+      </p>
+
+      <p>
+        <a href="https://qm.qq.com/q/pWFkPkEBgI" class="qq-group" title="QQ Group">
+          <span class="icon-tencentqq"></span>874587200
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="copyright">
+    © 2024 tigeRock Entertainment 版权所有
+  </div>
+  <div class="social-media">
+    <a href="https://discord.gg/5QgjJMs6" target="_blank" class="icon-discord-logo"></a>
+  </div>
+</footer>
+
+<script>
+
+(function() {
+var ws;
+
+function refreshWs() {
+	ws = new WebSocket('ws://localhost:8000/ws');
+	ws.onmessage = function () {
+  	console.log('perform hot reload');
+		setTimeout(() => window.location.href = window.location.href, 400);
+	};
+	ws.onclose = refreshWs;
+}
+
+refreshWs();
+
+window._ws_ = ws;
+})();
+</script>
+</body>
+</html>

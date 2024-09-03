@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+  <title>tigeRock Entertainment</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/styles/main.css">
+<link rel="stylesheet" href="/assets/styles/icofont.css">
+<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/favicon-32x32.webp" sizes="32x32">
+<link rel="icon" href="/assets/favicon-48x48.webp" sizes="48x48">
+<link rel="icon" href="/assets/favicon-96x96.webp" sizes="96x96">
+<link rel="icon" href="/assets/favicon-144x144.webp" sizes="144x144">
+<script src="/assets/scripts/main.js" type="application/javascript"></script>
+
+</head>
+<body>
+
+<div class="content">
+  <div class="featured">
+    <div class="featured-mask">
+        <header>
+  <a class="logo" href="/">
+    <span>t</span>
+    <span>i</span>
+    <span>g</span>
+    <span>e</span>
+    <span>R</span>
+    <span>o</span>
+    <span>c</span>
+    <span>k</span>
+  </a>
+  <nav>
+    <ol>
+      
+      <li><a href="/contact.html"><p>CONTACT</p></a></li>
+      <li><a href="/zh" id="switch-lang" hreflang="zh"><p>中文</p></a></li>
+    </ol>
+  </nav>
+</header>
+      <div class="motto">Play, Explore, Enjoy!</div>
+    </div>
+  </div>
+  <div class="game-lines" id="lines-world">
+    <div class="game-title">Beast Islet</div>
+    <div class="badges">
+      <a href="#" id="badge-app-store">
+        <img src="/assets/images/app-store-badge.webp" width="200"/>
+        <div class="banner">
+          <img src="/assets/images/comingsoon.webp"/>
+        </div>
+      </a>
+      <a href="#" id="badge-google-play">
+        <img src="/assets/images/google-play-badge.webp" width="200"/>
+        <div class="banner">
+          <img src="/assets/images/comingsoon.webp"/>
+        </div>
+      </a>
+      <a href="#" id="badge-steam">
+        <img src="/assets/images/steam-badge.webp" width="200"/>
+        <div class="banner">
+          <img src="/assets/images/comingsoon.webp"/>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="copyright">
+    © 2024 tigeRock Entertainment All Rights Reserved
+  </div>
+  <div class="social-media">
+    
+    <a href="https://discord.gg/5VRdDCvm" target="_blank" class="icon-discord-logo"></a>
+  </div>
+</footer>
+
+
+<script>
+
+(function() {
+var ws;
+
+function refreshWs() {
+	ws = new WebSocket('ws://localhost:8000/ws');
+	ws.onmessage = function () {
+  	console.log('perform hot reload');
+		setTimeout(() => window.location.href = window.location.href, 400);
+	};
+	ws.onclose = refreshWs;
+}
+
+refreshWs();
+
+window._ws_ = ws;
+})();
+</script>
+</body>
+</html>

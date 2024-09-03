@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: tigerock.com/sitemap.xml

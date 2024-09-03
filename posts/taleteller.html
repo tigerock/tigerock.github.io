@@ -1,0 +1,130 @@
+<html lang="">
+<head>
+  <title></title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/styles/main.css">
+<link rel="stylesheet" href="/assets/styles/icofont.css">
+<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/favicon-32x32.webp" sizes="32x32">
+<link rel="icon" href="/assets/favicon-48x48.webp" sizes="48x48">
+<link rel="icon" href="/assets/favicon-96x96.webp" sizes="96x96">
+<link rel="icon" href="/assets/favicon-144x144.webp" sizes="144x144">
+<script src="/assets/scripts/main.js" type="application/javascript"></script>
+
+</head>
+<body>
+<header>
+  <a class="logo" href="/">
+    <span>t</span>
+    <span>i</span>
+    <span>g</span>
+    <span>e</span>
+    <span>R</span>
+    <span>o</span>
+    <span>c</span>
+    <span>k</span>
+  </a>
+  <nav>
+    <ol>
+      
+      <li><a href="/contact.html"><p>CONTACT</p></a></li>
+      <li><a href="/zh" id="switch-lang" hreflang="zh"><p>中文</p></a></li>
+    </ol>
+  </nav>
+</header>
+
+
+<div class="post-featured" style="background-image: url('/assets/images/taleteller.webp')">
+  <div class="mask"></div>
+</div>
+
+<div class="post">
+  <h1 class="title">TaleTeller coming soon</h1>
+  <time>March, 27 2024</time>
+  <div class="post-body">
+      
+<h2 id="how-it-comes">How it comes</h2>
+
+<p>Months ago, as we start to create our visual novel like games. We found that the most important job is writing script.
+The tools for writing which is popular currently is <a href="https://www.yarnspinner.dev/" target="_blank">YarnSpinner</a>
+and <a href="https://www.inklestudios.com/ink/" target="_blank">Inkle</a>. But they both have something we don&rsquo;t agree.</p>
+
+<h4 id="inkle">Inkle</h4>
+
+<p>Ink is the script language that Inkle use. It maybe is the most popular script language which have 3.9K stars on GitHub.
+But we think it is like a programming script language than a stage script language.</p>
+
+<p>There are lots of symbols in ink. A screenwriter who is lack of programming knowledge would be lost into it. And these
+symbols will influence the creator to clarify the context of the story .</p>
+
+<h4 id="yarn">Yarn</h4>
+
+<p>Yarn is the script language that YarnSpinner use. We like the grammar of Yarn. It is simple enough. But it still
+contains context related parts. Like its <code>&lt;&lt;if&gt;&gt;</code> directive. Also, when the nesting is too deep, it also makes the
+script less intuitive.</p>
+
+<p>So we want to create a really simple tool to write these stories.</p>
+
+<h2 id="how-the-taleteller-looks-like">How the TaleTeller looks like</h2>
+
+<p>TaleTeller refers to the syntax of yarn. But removes context related directive.</p>
+
+<p>What&rsquo;s more, character &amp; scenes management also are important parts of writing scripts. I mean, the scripts always
+contains dialog between characters, things happen in a specific scene. So TaleTeller contains characters and scenes
+management.</p>
+
+<p>The goal is help screenwriter to write a complete story.</p>
+
+<h2 id="when-would-taleteller-come-out">When would TaleTeller come out</h2>
+
+<p>Currently, it is under development. And we are not sure about some features are really needed or not. It would come out
+with a game.</p>
+
+<p>And it would be multiple platforms supported including Windows, macOS and Ubuntu(We don&rsquo;t have enough to test it on
+other linux variants distribution).</p>
+
+  </div>
+</div>
+<footer>
+  <div class="copyright">
+    © 2024 tigeRock Entertainment All Rights Reserved
+  </div>
+  <div class="social-media">
+    
+    <a href="https://discord.gg/5VRdDCvm" target="_blank" class="icon-discord-logo"></a>
+  </div>
+</footer>
+
+<script>
+
+(function() {
+var ws;
+
+function refreshWs() {
+	ws = new WebSocket('ws://localhost:8000/ws');
+	ws.onmessage = function () {
+  	console.log('perform hot reload');
+		setTimeout(() => window.location.href = window.location.href, 400);
+	};
+	ws.onclose = refreshWs;
+}
+
+refreshWs();
+
+window._ws_ = ws;
+})();
+</script>
+</body>
+</html>
