@@ -111,25 +111,5 @@
     <a href="https://discord.gg/5QgjJMs6" target="_blank" class="icon-discord-logo"></a>
   </div>
 </footer>
-
-<script>
-
-(function() {
-var ws;
-
-function refreshWs() {
-	ws = new WebSocket('ws://localhost:8000/ws');
-	ws.onmessage = function () {
-  	console.log('perform hot reload');
-		setTimeout(() => window.location.href = window.location.href, 400);
-	};
-	ws.onclose = refreshWs;
-}
-
-refreshWs();
-
-window._ws_ = ws;
-})();
-</script>
 </body>
 </html>
